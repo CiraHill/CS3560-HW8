@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>25</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-build --dir cov-int</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>OldNoName</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>linux64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Linux 4.4.0-31-generic x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>8.5.0.3 (build db70178643 p-kent-push-26368.949)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>hillc</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/home/hillc/Documents/3560/CS3560-HW8</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/home/hillc/Documents/cov-analysis-linux64-8.5.0.3/cov-analysis-linux64-8.5.0.3/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/home/hillc/Documents/3560/CS3560-HW8/cov-int</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/home/hillc/Documents/3560/CS3560-HW8/cov-int/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/home/hillc/Documents/3560/CS3560-HW8/cov-int/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>3</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>cs-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>make build</value>
+    </metric>
+</metrics>
+</coverity>
